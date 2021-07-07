@@ -1,0 +1,54 @@
+html{
+    background-image:radial-gradient(rgb(110, 2, 2), rgb(11, 1, 49));
+    background-size: cover;
+}
+
+body,html{
+    
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family: sans-serif;
+    background-color: rgba(240, 248, 255, 0.397);
+    margin:0;
+    padding:0;
+}
+
+.clock{
+    height: 100vh;
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+
+.clock-face{
+    position: relative;
+    border: solid 1vh rgb(8, 38, 136);
+    border-radius: 50%;
+    transform: translateY(-20px);
+}
+
+img{
+    border-radius: inherit;
+    
+}
+
+.hand {
+    width: 45%;
+    height: 2%;
+    background: rgb(0, 65, 204);
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.01s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+
+
